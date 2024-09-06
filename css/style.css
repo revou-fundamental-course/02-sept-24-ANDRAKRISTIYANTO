@@ -1,1 +1,76 @@
 /* ini CSS */
+
+.center{
+    text-align: center;
+}
+
+.ok{
+    height: 32px;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+}
+.baik {
+    display: flex;
+    flex-direction: column;
+}
+.sip{
+    height: 32px;
+    background-color: bisque;
+    border: none;
+    border-radius: 8px;
+}
+.luas{
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    margin: 0px;
+    background-color: greenyellow;
+}
+.img1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://cdn-brilio-net.akamaized.net/real/2023/10/16/2130004/rumus-luas-segitiga-sama-sisi.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.mbh{
+    display: flex;
+    flex-direction: column;
+}
+.rumus{
+    text-align: center;
+    font-weight: bold;   
+}
+.gil{
+    text-align: center;
+}
+.jkn{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jkn>input{
+    width: 75%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+input [type=number]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.ke1{
+    flex: 1;
+}
+.all{
+    display: flex;
+}
