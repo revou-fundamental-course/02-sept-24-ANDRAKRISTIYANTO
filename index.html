@@ -38,7 +38,7 @@
                     </header>
                         <div class="jkn">
                             <label for="alas">Panjang-Alas</label>
-                            <input id="panjang-alas" type="number" />
+                            <input id="panjangalas" type="number" />
                         </div >
                         <div class="jkn">
                             <label for="tinggi">Tinggi</label>
@@ -47,20 +47,24 @@
         
                         <p id="result">Hasil Perhitungan:</p>
         
-                    <button>Hitung</button>    
+                    <button id="bon">Hitung</button>    
+                    <button id="bol">reset</button> 
+                    <div>
+                        <p id="ros">Luas segitiga</p>
+                    </div>
                 </form>
             </aside>
         
                 <aside class="ke1">
                     <header class="luas">
-                        <h1>Luas Segitiga</h1>
+                        <h1>Keliling segitiga</h1>
                     </header>
                     <article class="mbh">
                         <div class="img1"></div>
                         <p>Rumus Luas Segitiga yaitu:</p>
-                        <p class="rumus">L =1/2 x a x t</p>
+                        <p class="rumus">K =S1 + S2 + s3</p>
                         <p>Dimana:</p>
-                        <p>L:luas <br>a:Panjang Alas</br>t:tinggi</p>
+                        <p>K =Keliling <br>S1 =Sisi A</br>S2 =Sisi B</br>S3 =Sisi C</p>
                     </article>
             
                     <hr />
@@ -70,22 +74,34 @@
                             <h1>Hitung Luas Segitiga</h1>
                         </header>
                             <div class="jkn">
-                                <label for="alas">Panjang-Alas</label>
-                                <input id="panjang-alas" type="number" />
+                                <label for="sideA">S1</label>
+                                <input id="sideA" type="number" />
                             </div >
                             <div class="jkn">
-                                <label for="tinggi">Tinggi</label>
-                                <input id="tinggi" type="number" />
+                                <label for="sideB">S2</label>
+                                <input id="sideB" type="number" />
+                            </div>
+                            <div class="jkn">
+                                <label for="sideC">S3</label>
+                                <input id="sideC" type="number" />
                             </div>
             
                             <p id="result">Hasil Perhitungan:</p>
             
-                        <button>Hitung</button>    
+                        <button id="btn">Hitung</button>    
+                        <button id="ben">reset</button> 
+
+                        <div id="result">
+                            <p id="segitiga">Keliling segitiga</p>
+                        </div>
                     </form>
                 </aside>
         </section>
 
     </main>
+   
+
+<script src="js/script.js"></script>
     
 </body>
 </html>
